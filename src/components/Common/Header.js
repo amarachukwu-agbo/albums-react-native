@@ -18,7 +18,7 @@ const styles = {
   },
 };
 
-const Header = ({ title }) => (
+export const Header = ({ title }) => (
 // eslint-disable-next-line react/jsx-filename-extension
   <View style={styles.viewStyle}>
     <Text style={styles.textStyle}>{title}</Text>

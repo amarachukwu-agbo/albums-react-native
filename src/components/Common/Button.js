@@ -24,7 +24,7 @@ const styles = {
 };
 
 const { textStyle, buttonStyle } = styles;
-const Button = ({ onPress, children }) => (
+export const Button = ({ onPress, children }) => (
   <TouchableOpacity onPress={onPress} style={buttonStyle}>
     <Text style={textStyle}>
       { children }
