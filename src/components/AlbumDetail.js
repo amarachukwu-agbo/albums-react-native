@@ -1,9 +1,12 @@
 import React from 'react';
-import { Text, Image, View, Linking } from 'react-native';
+import {
+  Text,
+  Image,
+  View,
+  Linking,
+} from 'react-native';
 import PropTypes from 'prop-types';
-import Card from './Card';
-import CardSection from './CardSection';
-import Button from './Button';
+import { Card, CardSection, Button } from './Common';
 
 const styles = {
   thumbNailImageStyle: {

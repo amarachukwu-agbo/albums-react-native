@@ -13,7 +13,7 @@ const styles = {
     position: 'relative',
   },
 };
-const CardSection = ({ children }) => (
+export const CardSection = ({ children }) => (
   <View style={styles.containerStyle}>
     { children }
   </View>

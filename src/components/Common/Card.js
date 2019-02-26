@@ -18,7 +18,7 @@ const styles = {
   },
 };
 
-const Card = ({ children }) => (
+export const Card = ({ children }) => (
   <View style={styles.containerStyles}>
     { children }
   </View>
